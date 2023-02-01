@@ -1,0 +1,16 @@
+.main-layout {
+  margin: 0 170px;
+}
+
+.full{
+  margin:0;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .main-layout {
+    margin: 0 24px;
+  }
+}
+
+

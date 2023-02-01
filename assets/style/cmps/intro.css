@@ -1,0 +1,43 @@
+.intro-section {
+    background-color: #012F34;
+    padding: 158px 0;
+}
+
+.intro-section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1;
+    gap: 80px;
+}
+
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+@media (max-width: 480px) {
+    .intro-section{
+        padding: 70px 0;
+    }
+    .intro-section-container {
+        display: block;
+    }
+
+    .intro-section-container h3 {
+        margin-bottom: 50px;
+    }
+    .advantages {
+        display: block;
+    }
+    .advantages img{
+        display: block;
+        margin: 0 auto;
+    }
+    .intro-article h5 p{ 
+        text-decoration: center;
+    } 
+    .decorative-line{
+        height: 36px;
+    }
+}

@@ -1,0 +1,44 @@
+.success-stories-section{
+    padding: 80px 0;
+}
+
+.success-header{
+    text-align: center;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.success-stories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 62px;
+}
+
+.success-story{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+    background-image: url(../../img/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: contain; */
+    filter: brightness(120%);    
+    width: 350px;
+}
+
+
+@media (max-width: 480px) {
+    .success-stories{
+        grid-template-columns:auto;
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+       
+}

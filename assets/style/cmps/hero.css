@@ -1,0 +1,40 @@
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 70px;
+    row-gap: 90px;
+    align-items: flex-end;
+}
+
+.hero-slogan {
+    /* padding-top: 60px; */
+}
+
+.bg-pattern-home-1 {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% 0;
+    position: absolute;
+}
+.decorative-line-hero{
+    border-color:#79C8C7;
+}
+
+@media (max-width: 480px) {
+    .hero-container {
+        display: block;
+        /* grid-template-columns: 1;
+        grid-template-rows: 3fr 1fr 4fr;  */
+    }
+    .hero-slogan {
+        padding-bottom: 60px;
+    }
+
+    .bg-pattern-home-1 {
+        display: none;
+    }
+    .decorative-line-hero{
+       display: none;
+    }
+}

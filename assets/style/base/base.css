@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #2C6269;
+  font-family: Livvic;
+}
+
+body {
+  width: 100vw;
+  margin:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  line-height: 100px;
+}
+
+h2 {
+  color: white;
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 44.4px;
+  color: white;
+  line-height:44.4px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: white;
+}
+
+h5 {
+  color: #F67E7E;
+  font-size: 18px;
+}
+
+h6{
+  color: #79C8C7;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  /* margin: 0 0 1em; */
+  color: white;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+
+.decorative-line{
+  width:50px;
+  height:75px;
+  border-top: 4px solid #F67E7E;
+}
+
+@media (max-width: 480px) {
+h1{
+  font-size: 40px;
+}
+
+h3 h2{
+  font-size: 32px;
+}
+
+
+p{
+  font-size: 15px;
+}
+p, h1, h2, h4, h5, h6{
+  text-align: center;
+}
+}
